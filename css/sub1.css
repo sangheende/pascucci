@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /********** SUB1-common-S **********/
-.visual{background-image: url(../img/sub01-visual.jpg);}
+.visual{background-image: url(./img/sub01-visual.jpg);}
 .sec{padding: 180px 0;}
 /* .sec-header{margin-bottom: 50px;} */
 .sec-header .sec-tit{
@@ -29,7 +29,7 @@
   display: block;
   width: 100%; height: 500px;
   margin: 25px 0 50px 0;
-  background: url(../img/sub01-beanbg.jpg) no-repeat center center / cover;
+  background: url(./img/sub01-beanbg.jpg) no-repeat center center / cover;
 }
 .bean .bean-box .sec-header{padding-right: 240px;}
 /* Bean - E */
@@ -62,11 +62,11 @@
   margin-bottom: 30px;
   background: no-repeat center center / cover;
 }
-.barista .barista-cont .barista-cont-list:nth-child(1)::before{background-image: url(../img/sub01-barista-img01.jpg);}
-.barista .barista-cont .barista-cont-list:nth-child(2)::before{background-image: url(../img/sub01-barista-img02.jpg);}
-.barista .barista-cont .barista-cont-list:nth-child(3)::before{background-image: url(../img/sub01-barista-img03.jpg);}
-.barista .barista-cont .barista-cont-list:nth-child(4)::before{background-image: url(../img/sub01-barista-img04.jpg);}
-.barista .barista-cont .barista-cont-list:nth-child(5)::before{background-image: url(../img/sub01-barista-img05.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(1)::before{background-image: url(./img/sub01-barista-img01.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(2)::before{background-image: url(./img/sub01-barista-img02.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(3)::before{background-image: url(./img/sub01-barista-img03.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(4)::before{background-image: url(./img/sub01-barista-img04.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(5)::before{background-image: url(./img/sub01-barista-img05.jpg);}
 /* BARISTA - E */
 
 /* Roasting - S */
@@ -75,7 +75,7 @@
   display: flex;align-items: flex-end;
   width: 100%; height: 710px;
   padding:120px 0px;
-  background: #281517 url(../img/sub01-roasting-bg.jpg) no-repeat right top / cover;
+  background: #281517 url(./img/sub01-roasting-bg.jpg) no-repeat right top / cover;
 }
 .roasting .sec-header{width: 65%;}
 .roasting .sec-header .sec-tit{color: #fff;}
@@ -89,7 +89,7 @@
   content: "";
   display: block;
   width: calc(45% - 20px); height: 640px;
-  background: url(../img/sub01-product-bg01.jpg) no-repeat center center / cover;
+  background: url(./img/sub01-product-bg01.jpg) no-repeat center center / cover;
 }
 /* PRODUCT - E */
 /********** SUB1-1 - E **********/

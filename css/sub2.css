@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /********** SUB2-common-S **********/
-.visual{background-image: url(../img/sub02-visual.jpg);}
+.visual{background-image: url(./img/sub02-visual.jpg);}
 .sec{
   padding: 120px 0;
   border-bottom: 1px solid #ddd;

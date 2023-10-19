@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /********** SUB3-common-S **********/
 .inner{padding: 0 140px ;}
-.visual{background-image: url(../img/sub04-visual.jpg);}
+.visual{background-image: url(./img/sub04-visual.jpg);}
 .sec{
   padding: 120px 0;
 }
