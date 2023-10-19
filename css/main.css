@@ -22,14 +22,14 @@
   content: "";
   display: block;
   width: 13px;height: 13px;
-  background:url(./img/more-arrow-w.png) no-repeat 0 0 / cover  ;
+  background:url(../img/more-arrow-w.png) no-repeat 0 0 / cover  ;
 }
 .more:hover{
   border-color: #fff;
   background-color: #fff;
   font-weight: 500; color: #281517;
 }
-.more:hover::after{background-image: url(./img/more-arrow.png);} 
+.more:hover::after{background-image: url(../img/more-arrow.png);} 
 /* visual - S */
 .visual{width: 100%;height: 100vh;}
 .visual .inner{padding: 0 240px;}
@@ -59,9 +59,9 @@
   margin-top: 20px;
   font-size: 22px; line-height: 29px;
 }
-.visual .mySwiper .slide1{background-image: url(./img/visual-img01.jpg);}
-.visual .mySwiper .slide2{background-image: url(./img/visual-img02.jpg);}
-.visual .mySwiper .slide3{background-image: url(./img/visual-img03.jpg);}
+.visual .mySwiper .slide1{background-image: url(../img/visual-img01.jpg);}
+.visual .mySwiper .slide2{background-image: url(../img/visual-img02.jpg);}
+.visual .mySwiper .slide3{background-image: url(../img/visual-img03.jpg);}
 .mySwiper .swiper-button-prev{left: 100px;}
 .mySwiper .swiper-button-next{right: 100px;}
 .visual .swiper  .swiper-button-prev,
@@ -183,19 +183,19 @@
 .franchise-box > div p em{font-weight: 600;}
 .franchise-box .franchise-info{ 
   background-color: #9f001d; 
-  background-image: url(./img/franchise-bg1.png);
+  background-image: url(../img/franchise-bg1.png);
 }
 .franchise-box .franchise-consulting{
   background-color: #281517;
-  background-image: url(./img/franchise-bg2.png);
+  background-image: url(../img/franchise-bg2.png);
 }
 .franchise-info .info-box .more:hover{color: #9f001d;}
-.franchise-info .info-box .more:hover::after{background-image: url(./img/more-arrow-r.png);}
+.franchise-info .info-box .more:hover::after{background-image: url(../img/more-arrow-r.png);}
 /* FRANCHISES - E */
 /* BAR - S */
 .bar{
   width: 100%;
-  background: #281517 url(./img/bar-bg.jpg) no-repeat center center / cover ;
+  background: #281517 url(../img/bar-bg.jpg) no-repeat center center / cover ;
 }
 .bar .bar-box{display: flex; justify-content: space-between;}
 .bar-header{
@@ -247,7 +247,7 @@
   content: "";
   display: block;
   width: 14px;height: 25px;
-  background: url(./img/news-arrow.png) no-repeat 0 0 /contain;
+  background: url(../img/news-arrow.png) no-repeat 0 0 /contain;
 }
 .news .more{
   border-color: #281517;
@@ -258,7 +258,7 @@
   content: "";
   display: block;
   width: 13px;height: 13px;
-  background:url(./img/more-arrow.png) no-repeat 0 0 / cover  ;
+  background:url(../img/more-arrow.png) no-repeat 0 0 / cover  ;
 }
 
 .news .more:hover{
@@ -266,11 +266,11 @@
   background-color: #281517;
   font-weight: 500; color: #fff;
 }
-.news .more:hover::after{background-image: url(./img/more-arrow-w.png);}
+.news .more:hover::after{background-image: url(../img/more-arrow-w.png);}
 .news-wrap .news-list:hover{background-color: #281517;}
 .news-wrap .news-list:hover .news-list-box .list-box-txt em,
 .news-list:hover .news-list-box .list-box-txt p{color: #fff;}
-.news-wrap .news-list a:hover::after{background-image: url(./img/news-arrow-h.png);}
+.news-wrap .news-list a:hover::after{background-image: url(../img/news-arrow-h.png);}
 /* NEWS - E */
 /* OEDER - S */
 .order{
