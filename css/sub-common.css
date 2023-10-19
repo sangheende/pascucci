@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/**********  모든 SUB의 공통 **********/
+/********** SUB-common-S **********/
+.visual{
+  width: 100%; height: 350px;
+  margin-top: 100px ;
+  font-weight: 700;font-size: 52px; line-height: 350px; color: #fff;
+  text-indent: 100px;
+  background-position: center center;
+  background-size: cover;
+}
+.lnb{
+  position: relative; top: -28px;
+  margin-bottom: 90px;
+}
+.lnb .inner{
+  width: 55%; height: 60px; 
+  margin: 0 auto; padding: 0;
+  border-radius: 30px;
+  background-color: #f3f3f3;
+}
+.lnb .inner ul{
+  display: flex;justify-content: space-between; 
+  text-align: center;
+}
+.lnb .inner .lnb-list{
+  flex: 1;
+  border-radius: 30px;
+  font-weight: 500;font-size: 20px; line-height: 60px;color: #555;
+}
+.lnb .inner .lnb-list a{
+  display: block;
+  width: 100%; height: 60px;
+}
+.lnb .inner .lnb-list:hover{background-color: #920003; color: #fff;}
+.page-header{margin-bottom: 42px;}
+.page-header .tit{font-weight: 700;font-size: 40px; line-height: 60px;color: #111;text-align: center;}
+
+/********** SUB-common-E **********/
+
+
+
+
+
+
+
+
+@media screen and (max-width:1199px) {
+  /********** SUB-common-S **********/
+.visual{text-indent: 30px;}
+.lnb{position:static;}
+.lnb .inner{
+  width: 100%;
+  border-radius: 0;
+}
+/********** SUB-common-E **********/
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    /********** SUB-common-S **********/
+.visual{
+  height: 300px;
+  margin-top: 70px ;
+  font-size: 45px; line-height: 300px; 
+  text-indent: 20px;
+}
+.lnb{
+  margin-bottom: 50px;
+}
+.lnb .inner{
+  width: 100%; 
+  height: 40px;
+  border-radius: 0;
+}
+
+.lnb .inner .lnb-list{
+  line-height: 40px;
+  font-size: 12px; 
+}
+.lnb .inner .lnb-list a{height: 40px;}
+
+.page-header .tit{font-size: 30px; line-height: 50px;}
+/********** SUB-common-E **********/
+
+
+}

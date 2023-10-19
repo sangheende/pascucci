@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/********** SUB3-common-S **********/
+.inner{padding: 0 140px ;}
+.visual{background-image: url(/img/sub04-visual.jpg);}
+.sec{
+  padding: 120px 0;
+}
+.sec-header{
+  margin-bottom: 60px;
+  /* text-align: center; */
+  /* text-indent: 85px; */
+}
+.sec-header .sec-tit{
+  margin-bottom: 25px;
+  font-weight: 700; font-size: 32px; line-height: 42px;color: #333; 
+}
+.sec-header .sec-desc{font-weight: 300;font-size: 16px; line-height: 25px;color: #999;}
+/********** SUB3-common-E **********/
+
+/*********** SUB3-1 - S ***********/
+/* NOTICE - S */
+.notice{
+  width: 100%;
+  border-top: 2px solid #281517;
+}
+.notice thead{
+  border-bottom: 1px solid #ddd;
+  font-weight: 600; font-size: 22px
+}
+.notice thead tr{}
+.notice thead tr th{padding: 10px 0;}
+.notice thead tr th:nth-child(1){width: 10%; color: #555;}
+.notice thead tr th:nth-child(2){width: 75%; color: #333;}
+.notice thead tr th:nth-child(3){width: 15%; color: #555;}
+.notice tbody .notice-list td {
+  padding: 20px 5px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px; color: #777; text-align: center;
+}
+.notice tbody .notice-list .text{
+  font-weight: 600; font-size: 20px; color: #333; text-align: left;
+  text-indent: 20px;
+}
+.notice tbody tr.important .number,
+.notice tbody tr.important .text{color: #920003;}
+/* .notice tbody .notice-list td:last-child{font-size: 18px; color: #555; text-align: center;} */
+/* NOTICE - E */
+/* PAGER - S */
+.pager{
+  margin: 50px 0;
+  display: flex; justify-content: center; font-size: 24px;
+}
+.pager li:nth-child(2) {
+  width: 34px;height: 34px;
+  margin: 0 20px;
+  border-radius: 50%;
+  text-align: center; color: #281517;
+}
+/* PAGER - E */
+/*********** SUB3-1 - E ***********/
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1199px) {
+/********** SUB1-common-S **********/
+.inner{padding: 0 30px ;}
+.sec{padding: 50px 0;}
+.sec-header{margin-bottom: 40px;}
+.sec-header .sec-tit{
+  margin-bottom: 15px;
+  font-size: 22px; line-height: 32px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+  /********** SUB1-common-S **********/
+  .inner{padding: 0 20px ;}
+  .sec{padding: 50px 0;}
+  .sec-header{margin-bottom: 40px;}
+  .sec-header .sec-tit{
+    margin-bottom: 15px;
+    font-size: 22px; line-height: 32px;
+  }
+  /* NOTICE - S */
+.notice thead{
+  border-bottom: 1px solid #ddd;
+  font-weight: 600; font-size: 16px
+}
+.notice thead tr th:nth-child(1){display: none;}
+.notice thead tr th:nth-child(2){width: 70%; color: #333;}
+.notice thead tr th:nth-child(3){width: 30%; color: #555;}
+.notice tbody .notice-list td {
+  padding: 10px 5px;
+  /* border-bottom: 1px solid #ddd; */
+  font-size: 12px; color: #777; text-align: center;
+}
+.notice tbody .notice-list .number{display: none;}
+.notice tbody .notice-list .text{font-size: 14px; text-indent: 0}
+.notice tbody tr.important .number,
+.notice tbody tr.important .text{color: #920003;}
+/* .notice tbody .notice-list td:last-child{font-size: 18px; color: #555; text-align: center;} */
+/* NOTICE - E */
+/* PAGER - S */
+.pager{
+  margin: 50px 0;
+  display: flex; justify-content: center; font-size: 14px;
+}
+.pager li:nth-child(2) {
+  width: 34px;height: 34px;
+  margin: 0 20px;
+  border-radius: 50%;
+  text-align: center; color: #281517;
+}
+/* PAGER - E */
+}
