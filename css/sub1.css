@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /********** SUB1-common-S **********/
-.visual{background-image: url(/img/sub01-visual.jpg);}
+.visual{background-image: url(../img/sub01-visual.jpg);}
 .sec{padding: 180px 0;}
 /* .sec-header{margin-bottom: 50px;} */
 .sec-header .sec-tit{
@@ -24,16 +24,12 @@
 }
 /* intro - E */
 /* Bean - S */
-.bean-box{
-  /* padding-right: 140px; */
-  /* display: flex; justify-content: space-between;align-items: flex-end; */
-}
 .bean .bean-box::before{
   content: "";
   display: block;
   width: 100%; height: 500px;
   margin: 25px 0 50px 0;
-  background: url(/img/sub01-beanbg.jpg) no-repeat center center / cover;
+  background: url(../img/sub01-beanbg.jpg) no-repeat center center / cover;
 }
 .bean .bean-box .sec-header{padding-right: 240px;}
 /* Bean - E */
@@ -66,11 +62,11 @@
   margin-bottom: 30px;
   background: no-repeat center center / cover;
 }
-.barista .barista-cont .barista-cont-list:nth-child(1)::before{background-image: url(/img/sub01-barista-img01.jpg);}
-.barista .barista-cont .barista-cont-list:nth-child(2)::before{background-image: url(/img/sub01-barista-img02.jpg);}
-.barista .barista-cont .barista-cont-list:nth-child(3)::before{background-image: url(/img/sub01-barista-img03.jpg);}
-.barista .barista-cont .barista-cont-list:nth-child(4)::before{background-image: url(/img/sub01-barista-img04.jpg);}
-.barista .barista-cont .barista-cont-list:nth-child(5)::before{background-image: url(/img/sub01-barista-img05.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(1)::before{background-image: url(../img/sub01-barista-img01.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(2)::before{background-image: url(../img/sub01-barista-img02.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(3)::before{background-image: url(../img/sub01-barista-img03.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(4)::before{background-image: url(../img/sub01-barista-img04.jpg);}
+.barista .barista-cont .barista-cont-list:nth-child(5)::before{background-image: url(../img/sub01-barista-img05.jpg);}
 /* BARISTA - E */
 
 /* Roasting - S */
@@ -79,7 +75,7 @@
   display: flex;align-items: flex-end;
   width: 100%; height: 710px;
   padding:120px 0px;
-  background: #281517 url(/img/sub01-roasting-bg.jpg) no-repeat right top / cover;
+  background: #281517 url(../img/sub01-roasting-bg.jpg) no-repeat right top / cover;
 }
 .roasting .sec-header{width: 65%;}
 .roasting .sec-header .sec-tit{color: #fff;}
@@ -93,7 +89,7 @@
   content: "";
   display: block;
   width: calc(45% - 20px); height: 640px;
-  background: url(/img/sub01-product-bg01.jpg) no-repeat center center / cover;
+  background: url(../img/sub01-product-bg01.jpg) no-repeat center center / cover;
 }
 /* PRODUCT - E */
 /********** SUB1-1 - E **********/
@@ -108,80 +104,21 @@
 /********** SUB1-common-S **********/
 .inner{padding: 0 30px;}
 .sec{padding: 70px 0;}
-/* .sec-header{margin-bottom: 50px;} */
-.sec-header .sec-tit{
-  /* margin-bottom: 25px; */
-  /* font-size: 34px; line-height: 42px;color: #333; */
-}
-/* .sec-header .sec-tit em{font-weight: 600;} */
-/* .sec-header .sec-tit strong{font-weight: 600; color: #920003;} */
-/* .sec-header .sec-desc{font-weight: 300;font-size: 16px; line-height: 25px;color: #555;} */
-/* .sec-header .sec-desc + .sec-desc{margin-top: 15px;} */
 /********** SUB1-common-E **********/
-
-  /* intro - S */
-.intro{
-  /* width: 60%; */
-  /* margin: 0 auto;  */
-  /* text-align: center; */
-}
-/* intro - E */
 /* Bean - S */
-.bean-box{
-  /* display: flex; justify-content: space-between;align-items: flex-end; */
-  /* padding-right: 30px; */
-}
-.bean .bean-box::before{
-  /* content: ""; */
-  /* display: block; */
-  /* width: 40%; height: 640px; */
-  margin-right: 15px;
-  /* background: url(/img/sub01-beanbg.jpg); */
-}
+.bean .bean-box::before{margin-right: 15px;}
 .bean .bean-box .sec-header{padding-right: 0px;}
 /* Bean - E */
 /* BARISTA - S */
-.barista{}
 .barista .inner{padding: 0 30px;}
-/* .barista .barista-box{ display: flex; flex-direction: column;} */
-.barista .sec-header{
-  /* margin-bottom: 50px; */
-  /* text-align: center; */
-}
-.barista .barista-box .barista-cont{
-  /* display: flex; justify-content: space-between; */
-  /* flex-wrap:wrap; */
-}
-.barista .barista-cont .barista-cont-list{
-  width: 220px;
-  /* word-break: keep-all; */
 
-}
-.barista .barista-cont .barista-cont-list p{  
-  font-size: 16px; text-align: center; color: #333; line-height: 26px;
-  /* padding: 0 10px; */
-}
+.barista .barista-cont .barista-cont-list{width: 220px;}
+.barista .barista-cont .barista-cont-list p{  font-size: 16px; text-align: center; color: #333; line-height: 26px;}
 .barista .barista-cont .barista-cont-list + .barista-cont-list{margin-left: 10px;}
-.barista .barista-cont .barista-cont-list::before{
-  /* content: ""; */
-  /* display: block; */
-  /* width: 100%;  */
-  height: 160px;
-  /* margin-bottom: 30px; */
-  /* background: no-repeat center center / cover; */
-}
+.barista .barista-cont .barista-cont-list::before{ height: 160px;}
 /* BARISTA - E */
 /* Roasting - S */
-/* .roasting {} */
-.roasting .inner{
-  /* display: flex;align-items: flex-end; */
-  /* width: 100%; height: 710px; */
-  padding:70px 20px;
-  /* background: #281517 url(/img/sub01-roasting-bg.jpg) no-repeat right top / contain; */
-}
-/* .roasting .sec-header{width: 100%;} */
-/* .roasting .sec-header .sec-tit{color: #fff;} */
-/* .roasting .sec-header .sec-desc{color: #ccc;} */
+.roasting .inner{padding:70px 20px;}
 /* Roasting - E */
 }
 
@@ -223,7 +160,7 @@
 .bean .sec-header{width: 100%;}
 /* Bean - E */
 /* BARISTA - S */
-.barista{}
+
 .barista .inner{padding: 0 30px;}
 .barista .sec-header{margin-bottom: 25px;}
 .barista .barista-box .barista-cont{flex-direction: column;}

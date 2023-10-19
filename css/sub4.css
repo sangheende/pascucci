@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /********** SUB3-common-S **********/
 .inner{padding: 0 140px ;}
-.visual{background-image: url(/img/sub04-visual.jpg);}
+.visual{background-image: url(../img/sub04-visual.jpg);}
 .sec{
   padding: 120px 0;
 }
@@ -107,14 +107,12 @@
 .notice thead tr th:nth-child(3){width: 30%; color: #555;}
 .notice tbody .notice-list td {
   padding: 10px 5px;
-  /* border-bottom: 1px solid #ddd; */
   font-size: 12px; color: #777; text-align: center;
 }
 .notice tbody .notice-list .number{display: none;}
 .notice tbody .notice-list .text{font-size: 14px; text-indent: 0}
 .notice tbody tr.important .number,
 .notice tbody tr.important .text{color: #920003;}
-/* .notice tbody .notice-list td:last-child{font-size: 18px; color: #555; text-align: center;} */
 /* NOTICE - E */
 /* PAGER - S */
 .pager{
