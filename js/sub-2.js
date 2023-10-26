@@ -132,15 +132,36 @@ const coffee = [
 
 for (const category of coffee) {
   //menu안에 sec 만들기
-  let menu = document.querySelector(".menu .inner")
+  let inner = document.querySelector(".menu .inner")
   let sec = document.createElement("div");
   sec.classList.add("sec");
-  menu.appendChild(sec)
+  inner.appendChild(sec)
   
   //sec안에 sec-header넣기
   let secHeader = document.createElement("div");
   secHeader.classList.add("sec-header");
   sec.appendChild(secHeader);
   secHeader.innerHTML = `<h4 class="sec-tit">${category.title}</h4>`
-
+  
+  //sec안에 ul 넣기
+  let ul = document.createElement("ul");
+  ul.classList.add("menu-box");
+  sec.appendChild(ul);
+  
+  //ul에 li넣기
+  for (const menu of category.menu) {
+    let li = document.createElement("li");
+    li.classList.add("menu-list");
+    ul.appendChild(li);
+    li.innerHTML = `
+    <figure class="list-img">
+      <img src="${menu.img}" alt="">
+    </figure>
+    <div class="list-txt">
+      <em>${menu.name}</em>
+      <span>${menu.engName}</span>
+      <p>${menu.desc}</p>
+    </div>
+  `;
+  }
 }

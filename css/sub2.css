@@ -15,6 +15,7 @@
 .menu-box{
   display: flex; justify-content: flex-start;
   flex-wrap: wrap;
+  /* gap: 20px; */
   width: 100%;
 }
 .menu-box .menu-list{
@@ -23,18 +24,24 @@
   width: calc(100% / 4 );
   text-align: center;
   margin-bottom: 100px;
+  padding: 0 20px;
+  word-break: keep-all;
 }
 .menu-box .menu-list .list-img{
   width: 70%;
   margin:0 auto 20px auto;
 }
 .menu-box .menu-list:nth-child(5n){margin-left: 0;}
-.menu-box .menu-list .list-txt{margin-bottom: 20px;}
+.menu-box .menu-list .list-txt{margin-bottom: 20px; color: #555;}
 .menu-box .menu-list .list-txt em{
   display: block;
   font-weight: 600; font-size: 20px; color: #333;
 }
-.menu-box .menu-list .list-txt span{font-weight: 300; font-size: 14px; color: #aaa;}
+.menu-box .menu-list .list-txt span{
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 300; font-size: 14px; color: #aaa;
+}
 .menu-box .menu-list .list-img img{
   object-fit: contain;
 }
@@ -84,8 +91,13 @@
   font-size: 22px; line-height: 32px;
 }
 .sec-header .sec-desc{font-size: 14px; line-height: 23px;}
+.menu-box .menu-list{
+
+  width: calc(100% / 3 );
+}
 .menu-box .menu-list .list-img{ width: 100%;}
 /********** SUB1-common-E **********/
+
 }
 
 
@@ -98,12 +110,12 @@
 .sec-header{margin-bottom: 40px;}
 .sec-header .sec-tit{
   margin-bottom: 15px;
-  font-size: 22px; line-height: 32px;
+  font-size: 22px; line-height: 32px; text-align: center;
 }
 .sec-header .sec-desc{font-size: 14px; line-height: 23px;}
-.menu-box .menu-list{ width: calc(100% / 2);}
+.menu-box .menu-list{ width: 100%;}
 .menu-box .menu-list .list-img{
-  width: 100%;
+  width: 90%;
   margin:0 auto;
 }
 .menu-box .menu-list + .menu-list{margin-left: 0;}

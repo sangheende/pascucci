@@ -82,7 +82,8 @@
 
 .lnb .inner .lnb-list{
   line-height: 40px;
-  font-size: 12px; 
+  font-size: 14px; 
+  border-radius: 0;
 }
 .lnb .inner .lnb-list a{height: 40px;}
 
