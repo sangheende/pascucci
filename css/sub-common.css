@@ -32,7 +32,8 @@
   display: block;
   width: 100%; height: 60px;
 }
-.lnb .inner .lnb-list:hover{background-color: #920003; color: #fff;}
+.lnb .inner .lnb-list.on{background-color: #920003; color: #fff;}
+/* .lnb .inner .lnb-list:hover{background-color: #920003; color: #fff;} */
 .page-header{margin-bottom: 42px;}
 .page-header .tit{font-weight: 700;font-size: 40px; line-height: 60px;color: #111;text-align: center;}
 
