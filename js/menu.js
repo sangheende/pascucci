@@ -76,3 +76,4 @@ const coffee = {
   },
 }
 
+export {coffee};
