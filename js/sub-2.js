@@ -81,15 +81,10 @@ const coffee = [
         desc:"에스프레소와 부드러운 벨벳 밀크폼을 혼합하여 커피와 우유거품의 절묘한 풍미를 느낄 수 있는 커피",
         img:"../img/sub02-01-img09.jpg"
       },
-      { name:"바닐라 라떼 마끼야또",
-        engName:"Latte Macchiato (Vanilla)",
-        desc:"에스프레소와 부드러운 벨벳 밀크폼을 혼합하여 커피와 우유거품의 절묘한 풍미를 느낄 수 있는 커피",
-        img:"../img/sub02-01-img09.jpg"
-      },
       { name:"카페 모카",
         engName:"Caffe' Mocha",
         desc:"에스프레소와 부드러운 벨벳 밀크폼을 혼합하여 커피와 우유거품의 절묘한 풍미를 느낄 수 있는 커피",
-        img:"../img/sub02-01-img09.jpg"
+        img:"../img/sub02-01-img10.jpg"
       },
     ]
   },
@@ -98,27 +93,28 @@ const coffee = [
       { name:"콜드부르 아메리카노",
         engName:"Cold Brew Americano",
         desc:"원두 고유의 향을 고스란히 간직한 부드러운 콜드브루 커피",
-        img:"../img/sub02-01-img08.jpg"
+        img:"../img/sub02-01-img15.jpg"
       },
-      { coldLatte:"콜드부르 라떼",
-        engName:"Cafe' Latte",
+      { name:"콜드부르 라떼",
+        engName:"Cold Brew Cafe' Latte",
         desc:"입안을 가득 채우는 깊은 풍미와 부드러움, 콜드브루 라떼",
-        img:"../img/sub02-01-img09.jpg"
+        img:"../img/sub02-01-img14.jpg"
       },
       { name:"연유 콜드브루 플로토",
         engName:"Milky Cold Brew Float",
         desc:"시원한 콜드브루에 달콤한 연유와 피오르디 젤라또를 띄워 더욱 달콤하고 부드럽게 즐기는 이탈리안 스타일의 커피 플로트",
-        img:"../img/sub02-01-img010.jpg"
+        img:"../img/sub02-01-img13.jpg"
       },
       {
         name:"오트 콜드브루 플로토",
         engName:"Oat Cokd Brew Float",
         desc:"고소한 식물성 오트음료와 콜드브루 커피, 젤라또를 더하여 고급스럽게 즐기는 음료",
-        img:"../img/sub02-01-img011.jpg"
+        img:"../img/sub02-01-img12.jpg"
       },
       { name:"콜드브루 원액",
         engName:"Cold Brew",
         desc:"파스쿠찌만의 시그니처 커피 원액을 한 병 가득, 집에서도 취향에 맞게 즐길 수 있는 커피원액 베이스",
+        img:"../img/sub02-01-img11.jpg"
       },
     ]
   },
