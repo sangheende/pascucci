@@ -71,6 +71,26 @@ const coffee = [
         desc:"에스프레소와 부드러운 벨벳 밀크폼을 혼합하여 커피와 우유거품의 절묘한 풍미를 느낄 수 있는 커피",
         img:"../img/sub02-01-img07.jpg"
       },
+      { name:"카라멜 라떼 마끼야또",
+        engName:"Latte Macchiato (Caramel)",
+        desc:"에스프레소와 부드러운 벨벳 밀크폼을 혼합하여 커피와 우유거품의 절묘한 풍미를 느낄 수 있는 커피",
+        img:"../img/sub02-01-img08.jpg"
+      },
+      { name:"바닐라 라떼 마끼야또",
+        engName:"Latte Macchiato (Vanilla)",
+        desc:"에스프레소와 부드러운 벨벳 밀크폼을 혼합하여 커피와 우유거품의 절묘한 풍미를 느낄 수 있는 커피",
+        img:"../img/sub02-01-img09.jpg"
+      },
+      { name:"바닐라 라떼 마끼야또",
+        engName:"Latte Macchiato (Vanilla)",
+        desc:"에스프레소와 부드러운 벨벳 밀크폼을 혼합하여 커피와 우유거품의 절묘한 풍미를 느낄 수 있는 커피",
+        img:"../img/sub02-01-img09.jpg"
+      },
+      { name:"카페 모카",
+        engName:"Caffe' Mocha",
+        desc:"에스프레소와 부드러운 벨벳 밀크폼을 혼합하여 커피와 우유거품의 절묘한 풍미를 느낄 수 있는 커피",
+        img:"../img/sub02-01-img09.jpg"
+      },
     ]
   },
   {title:"Cold Brew",
@@ -107,7 +127,20 @@ const coffee = [
 
 
 
-
-
 // console.log(sec)
 // vari.innerHTML = `<div class="sec-header"><h4 class="sec-tit">${coffee[length].title}</h4></div>`
+
+for (const category of coffee) {
+  //menu안에 sec 만들기
+  let menu = document.querySelector(".menu .inner")
+  let sec = document.createElement("div");
+  sec.classList.add("sec");
+  menu.appendChild(sec)
+  
+  //sec안에 sec-header넣기
+  let secHeader = document.createElement("div");
+  secHeader.classList.add("sec-header");
+  sec.appendChild(secHeader);
+  secHeader.innerHTML = `<h4 class="sec-tit">${category.title}</h4>`
+
+}
