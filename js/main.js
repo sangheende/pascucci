@@ -90,7 +90,6 @@ xhr.onreadystatechange = function () {
         1200: { slidesPerView: 2.5, spaceBetween: 30, },
       },
     });
-
   };
   tabButtons[0].click();
 };
