@@ -1,5 +1,5 @@
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "../json/menusec.json");
+xhr.open("GET", "./pascucci/json/menusec.json");
 xhr.send();
 let menuSwiperAll = document.querySelector('.menu-swiper-all');
 let tabButtons = document.querySelectorAll('.category .tabButton');
